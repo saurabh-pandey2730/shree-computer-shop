@@ -5,9 +5,9 @@ import React from 'react'
 export default function FooterComponent() {
   return (
     <Footer container className='border border-t-8 border-teal-500 mt-10'>
-    <div className="w-full">
+     <div className="w-full">
       <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-      <div className='mt-5'>
+       <div className='mt-5'>
           <div
             
             className='self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white'
