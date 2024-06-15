@@ -12,8 +12,7 @@ export default function Services() {
   <div className="h-44 w-44 bg-slate-300">01</div>
   <div className="h-44 w-44 bg-slate-300">01</div>
   <div className="h-44 w-44 bg-slate-300">01</div>
-  <div className="h-44 w-44 bg-slate-300">01</div>
-  <div className="h-44 w-44 bg-slate-300">01</div>
+
   
   
  

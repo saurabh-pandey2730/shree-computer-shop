@@ -19,7 +19,7 @@ Explore our extensive range of products, from state-of-the-art laptops and deskt
  <span className='flex'><FaRegArrowAltCircleRight className='w-7 text-red-600 mt-1'/>ISO Certified </span>
  <span className='flex mt-2'><FaRegArrowAltCircleRight className='w-7 text-red-600 mt-1'/>Rental Service Available</span>
  <span className='flex mt-2'><FaRegArrowAltCircleRight className='w-7 text-red-600 mt-1'/>Other Tech Support</span>
- <p className='font font-semibold md:text-2xl mt-4 text-xl ml-5'>*We Have <span className='text-red-500'>10 Years</span> of Working Experience</p>
+ <p className='font font-semibold md:text-2xl mt-4 text-base sm:text-xl m-5'>*We Have <span className='text-red-500'>10 Years</span> of Working Experience</p>
  </div>
  </div>
 </div>

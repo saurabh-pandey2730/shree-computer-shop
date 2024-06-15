@@ -6,7 +6,7 @@ import img4 from '../../assets/shree-shop-2.jpg'
 import { Carousel } from "flowbite-react";
 export default function Caraousal() {
   return (
-    <div className="lg:h-[32rem]  sm:h-64 xl:h-11/12 2xl:h-11/12">
+    <div className=" lg:h-[32rem]  sm:h-64 xl:h-11/12 2xl:h-11/12 h-64">
       <Carousel slideInterval={2000}>
         <img src={img4} alt="sl-1" />
         <img src="https://okcredit-blog-images-prod.storage.googleapis.com/2020/12/shutterstock_1445581070.jpg" alt="slide" />
