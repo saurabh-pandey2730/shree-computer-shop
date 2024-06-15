@@ -8,8 +8,8 @@ export default function About() {
 
  <div className='w-full md:ml-24 sm:ml-4 '>
   {/* <span className='text-red-500 font-bold'>About us</span> */}
-  <h1 className='mt-4 text-4xl font-bold text-amber-700 sm:mt-5 md:mt-0   '><span className='text-slate-600 '>Welcome To</span> Shree Computer Shop</h1>
-  <p className='mt-4 text-lg text-slate-600'>Step into our world of cutting-edge technology, where innovation meets affordability. Whether you're a seasoned professional or a tech enthusiast, we have the perfect solution tailored to your needs.
+  <h1 className='mt-6 text-4xl font-bold text-amber-700 sm:mt-5 md:mt-0  ml-8 '><span className='text-slate-600 '>Welcome To</span> Shree Computer Shop</h1>
+  <p className='mt-4 px-3 text-lg text-slate-600'>Step into our world of cutting-edge technology, where innovation meets affordability. Whether you're a seasoned professional or a tech enthusiast, we have the perfect solution tailored to your needs.
 
 Explore our extensive range of products, from state-of-the-art laptops and desktops to high-performance peripherals and accessories. With brands known for quality and reliability, you can trust that your computing needs are in good hands.
 
@@ -19,7 +19,7 @@ Explore our extensive range of products, from state-of-the-art laptops and deskt
  <span className='flex'><FaRegArrowAltCircleRight className='w-7 text-red-600 mt-1'/>ISO Certified </span>
  <span className='flex mt-2'><FaRegArrowAltCircleRight className='w-7 text-red-600 mt-1'/>Rental Service Available</span>
  <span className='flex mt-2'><FaRegArrowAltCircleRight className='w-7 text-red-600 mt-1'/>Other Tech Support</span>
- <p className='font font-semibold text-2xl mt-4'>*We Have <span className='text-red-500'>10 Years</span> of Working Experience</p>
+ <p className='font font-semibold md:text-2xl mt-4 text-xl ml-5'>*We Have <span className='text-red-500'>10 Years</span> of Working Experience</p>
  </div>
  </div>
 </div>
