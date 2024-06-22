@@ -1,6 +1,8 @@
 
 import { Footer } from "flowbite-react";
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import {  BsFacebook, BsGithub, BsInstagram, BsWhatsapp } from "react-icons/bs";
+import { FaPhoneAlt } from "react-icons/fa";
+
 
 export function FooterComponent() {
   return (
@@ -28,10 +30,10 @@ export function FooterComponent() {
           <div>
             <Footer.Title title="help center" className="hover:text-white"/>
             <Footer.LinkGroup col className="hover:text-red-500">
-              <Footer.Link href="tel:9415863967" className="hover:text-white">Call</Footer.Link>
-              <Footer.Link href="mailto:saurabh.k.pandey2018@example.com
+              <Footer.Link href="tel:8882525062" className="hover:text-white">Call</Footer.Link>
+              <Footer.Link href="mailto:shreecomputershopnoida@gmail.com
          ?subject=Saying%20hello%20from%20User" className="hover:text-white">Email</Footer.Link>
-              <Footer.Link href="https://wa.me/9415863967" className="hover:text-white">Whastapp</Footer.Link>
+              <Footer.Link href="https://wa.me/+918882525062" className="hover:text-white">Whastapp</Footer.Link>
               <Footer.Link href="https://www.facebook.com/" className="hover:text-white">Facebook</Footer.Link>
             </Footer.LinkGroup>
           </div>
@@ -49,11 +51,11 @@ export function FooterComponent() {
         <div className="w-full bg-gray-700 px-4 py-6 sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright href="#" by="Saurabh Pandey" year={2024} className="hover:text-white"/>
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center  ">
-            <Footer.Icon href="#" icon={BsFacebook} className="hover:text-white" />
-            <Footer.Icon href="#" icon={BsInstagram} className="hover:text-white" />
-            <Footer.Icon href="#" icon={BsTwitter} className="hover:text-white" />
-            <Footer.Icon href="#" icon={BsGithub} className="hover:text-white" />
-            <Footer.Icon href="#" icon={BsDribbble} className="hover:text-white" />
+            <Footer.Icon href="#" icon={BsFacebook} className="text-blue-600 hover:text-white" />
+            <Footer.Icon href="#" icon={BsInstagram} className="text-red-800 hover:text-white" />
+            <Footer.Icon href="#" icon={BsWhatsapp} className="text-green-500 hover:text-white " />
+            <Footer.Icon href="https://github.com/saurabh-pandey2730" icon={BsGithub} className="text-white " />
+            <Footer.Icon href="tel:8882525062" icon={FaPhoneAlt } className="text-blue-500 hover:text-white" />
           </div>
         </div>
       </div>
