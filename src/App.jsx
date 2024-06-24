@@ -7,7 +7,11 @@ import About from './components/Home/About'
 import Services from './components/Home/Services'
 import Products from './components/pages/Products'
 import Contact from './components/pages/Contact'
-
+import Caraousal from './components/Home/Caraousal'
+import Clients from './components/Home/Clients'
+import NavBar from './components/Home/Navbar'
+import { FooterComponent } from './components/Home/Footer'
+ 
 
 function App() {
  
