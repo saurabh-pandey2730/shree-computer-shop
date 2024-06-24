@@ -3,7 +3,7 @@ import React from 'react'
 export default function Clients() {
   return (
     <div className=' sm:h-64 md:h-11/12 sm:mt-10 md:mt-16 bg-zinc-100'>
-       <h1 className='text-center pt-4 text-3xl font-semibold hover:text-blue-700'>Our Clients</h1>
+       <h1 className='text-center pt-4 text-3xl font-bold hover:text-blue-700'>Our Clients</h1>
        <marquee behavior="slide" direction="left"  speed='200' loop='' >
         <div className='flex justify-between mt-8 mb-8'>
         <div className='md:h-32 md:w-48 hover:scale-105 h-32 w-[600px]  '>            

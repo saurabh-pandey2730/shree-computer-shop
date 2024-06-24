@@ -49,7 +49,7 @@ export function FooterComponent() {
        
         </div>
         <div className="w-full bg-gray-700 px-4 py-6 sm:flex sm:items-center sm:justify-between">
-          <Footer.Copyright href="#" by="Saurabh Pandey" year={2024} className="hover:text-white"/>
+          <Footer.Copyright href="tel:8882525062" by="Ved Prakash Tripathi" year={2024} className="hover:text-white"/>
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center  ">
             <Footer.Icon href="#" icon={BsFacebook} className="text-blue-600 hover:text-white" />
             <Footer.Icon href="#" icon={BsInstagram} className="text-red-800 hover:text-white" />

@@ -4,7 +4,7 @@ import { AiFillSlackCircle ,AiFillSetting } from "react-icons/ai";
 export default function Services() {
   return (
     <div className="mb-12">
-      <h1 className="text-center text-3xl hover:text-4xl font-bold mt-5 hover:text-blue-700 "> Our Services</h1>
+      <h1 className="text-center text-3xl  font-bold mt-5 hover:text-blue-700 "> Our Services</h1>
       <div className="grid grid-cols-2 gap-6 m-4 lg:grid-cols-4  sm:grid-cols-2 md:grid-cols-3 flex justify-center lg:ml-36 lg:mt-8 ">
       <div className="h-44 w-44 hover:bg-white bg-blue-700 text-cyan-50  hover:text-red-600 rounded-lg hover:scale-105">
     <h2 className="text-center font-bold mt-3 text-xl  ">General services</h2>
