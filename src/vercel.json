@@ -1,9 +1,7 @@
 {
     "rewrites":  [
-      {"source": "/(.*)", "destination": "/"}
-    ],
-    "scripts": {
-      "build": "react-scripts build"
-    }
+      {"source": "/(.*)", "destination": "/index.html"}
+    ]
+   
   }
 

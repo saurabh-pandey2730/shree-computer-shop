@@ -8,6 +8,7 @@ import { FooterComponent } from './Footer'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Products from '../pages/Products'
 import Contact from '../pages/Contact'
+import MoreAboutUs from './MoreAboutUs'
 export default function Homepage() {
   return (
     <BrowserRouter>
@@ -21,6 +22,7 @@ export default function Homepage() {
                       <About/>
                       <Clients/>
                       <Services/>
+                      <MoreAboutUs/>
                    </div>} />
            <Route path='/about'  element={ <About/>} />
            <Route path='/services'  element={ <Services/>} />
