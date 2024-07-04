@@ -1,6 +1,7 @@
 
 import { FaComputer } from "react-icons/fa6";
 import { AiFillSlackCircle ,AiFillSetting } from "react-icons/ai";
+import {BsWhatsapp} from "react-icons/bs";
 export default function Services() {
   return (
     <div className="mb-12">
@@ -41,6 +42,7 @@ export default function Services() {
   
  
 </div>
+ {/* <BsWhatsapp className="fixed z-10 right-0 text-green-600"/> */}
     </div>
   )
 }

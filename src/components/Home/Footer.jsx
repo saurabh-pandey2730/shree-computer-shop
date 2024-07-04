@@ -1,7 +1,8 @@
 
 import { Footer } from "flowbite-react";
-import {  BsFacebook, BsGithub, BsInstagram, BsWhatsapp } from "react-icons/bs";
+import {  BsFacebook, BsGithub, BsInstagram, BsPhone, BsWhatsapp } from "react-icons/bs";
 import { FaPhoneAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 export function FooterComponent() {
@@ -53,12 +54,13 @@ export function FooterComponent() {
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center  ">
             <Footer.Icon href="#" icon={BsFacebook} className="text-blue-600 hover:text-white" />
             <Footer.Icon href="#" icon={BsInstagram} className="text-red-800 hover:text-white" />
-            <Footer.Icon href="#" icon={BsWhatsapp} className="text-green-500 hover:text-white " />
+            <Footer.Icon href="https://wa.me/+918882525062" icon={BsWhatsapp} className="text-green-500 hover:text-white " />
             <Footer.Icon href="https://github.com/saurabh-pandey2730" icon={BsGithub} className="text-white " />
             <Footer.Icon href="tel:8882525062" icon={FaPhoneAlt } className="text-blue-500 hover:text-white" />
           </div>
         </div>
       </div>
+            <a href="tel:8882525062"><FaPhoneAlt className="text-blue-500 hover:text-white fixed bottom-32 right-8 z-10 text-4xl  sm:hidden " /></a>
     </Footer>
   );
 }
