@@ -1,6 +1,6 @@
  
 import React from 'react'
-import Homepage from './components/Home/Homepage'
+
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 
 import About from './components/Home/About'
@@ -12,6 +12,7 @@ import Clients from './components/Home/Clients'
 import NavBar from './components/Home/Navbar'
 import { FooterComponent } from './components/Home/Footer'
 import MoreAboutUs from './components/Home/MoreAboutUs'
+import HomeNav from './components/Header/Home'
  
 
 function App() {
@@ -20,12 +21,13 @@ function App() {
   return (
     <BrowserRouter>
             
-    <NavBar/>
+    {/* <NavBar/> */}
+    <HomeNav/>
 
 <Routes>
  
 <Route path='/'  element={  <div>
-    <Caraousal/>
+    {/* <Caraousal/> */}
     <About/>
     <Clients/>
     <MoreAboutUs/>
