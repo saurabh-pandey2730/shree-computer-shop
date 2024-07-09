@@ -16,8 +16,8 @@ const Hero = ({colorDeep, mainText, shadow, mobileShadow, subText, img}) => {
         />
       </div>
 
-      <div className = "lg:w-3/5 w-full lg:-mt-6 relative">
-        <img  src={img} loading="eager" alt={img} className = "w-3/5 mx-auto" width = "500" height = "300"/>
+      <div className = "w-full mt-6  lg:-mt-6 relative">
+        <img  src={img} loading="eager" alt={img} className = "w-4/5 lg:3/5 mx-auto" width = "500" height = "300"/>
       </div>
     </main>
   )

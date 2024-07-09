@@ -1,5 +1,4 @@
 import {useState} from 'react';
-import promoil from './assets/Header/promoil.png';
 import logo from '../../assets/logo-scs-.png' 
 import Button from './Button';
 import {IoMenuOutline, IoCloseOutline} from 'react-icons/io5';
@@ -9,7 +8,7 @@ import {navItems} from './data';
   const [openMenu, setOpenMenu] = useState(false);
   
     return (
-    <header className='flex lg:items-center lg:justify-between lg:flex-row lg:gap-0 w-full md:px-16 flex-col gap-4 px-4 '>
+    <header className='flex lg:items-center lg:justify-between lg:flex-row lg:gap-0 w-full md:px-16 flex-col gap-8 px-4 '>
       <div className='flex flex-row items-center justify-between lg:w-auto '>
         <div className = {`flex justify-center items-center  h-18 w-18 rounded-lg  `} style={{borderColor: `${colorDeep}`}}>
           <img src={logo} alt="Shree Computer Shop" className="w-full max-w-[120px]" width="50" height="50"/>

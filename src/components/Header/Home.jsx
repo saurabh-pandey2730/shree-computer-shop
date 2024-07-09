@@ -12,7 +12,7 @@ const HomeNav = () => {
    <Swiper
     spaceBetween={30}
     speed={3000}
-    autoplay={{delay: 1000, disableOnInteraction: false}}
+    autoplay={{delay: 1500, disableOnInteraction: false}}
     effect={"fade"}
     fadeEffect={{crossFade: true}}
     modules={[Autoplay, EffectFade]}

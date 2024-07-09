@@ -27,7 +27,7 @@ function App() {
 <Routes>
  
 <Route path='/'  element={  <div>
-    {/* <Caraousal/> */}
+
     <About/>
     <Clients/>
     <MoreAboutUs/>
